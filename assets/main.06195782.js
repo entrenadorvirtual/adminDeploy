@@ -1,4 +1,4 @@
-import { g as get, c as child, r as ref, d as database, u as update, s as set, p as push, b as remove } from "./config.165bca36.js";
+import { g as get, c as child, r as ref, d as database, s as set, p as push, u as update, b as remove } from "./config.165bca36.js";
 const CREAR_DOCUMENTO_REALTIME = async (rutaDocumento, datos) => await set(push(ref(database, rutaDocumento)), datos);
 const OBTENER_DOCUMENTO_REALTIME = async (rutaDocumento) => {
   const res = await get(child(ref(database), rutaDocumento));
