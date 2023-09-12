@@ -1,0 +1,10 @@
+.v-flex {
+  display: var(--3e3bf628);
+  flex-direction: var(--54feccb2);
+  flex-wrap: var(--52495737);
+  justify-content: var(--78bf6fc6);
+  align-items: var(--61222e0f);
+  align-content: var(--5be32308);
+  row-gap: var(--5d475a20);
+  column-gap: var(--3fcea268);
+}

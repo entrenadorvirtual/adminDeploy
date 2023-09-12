@@ -1,0 +1,25 @@
+/*! _variables.scss | Vuero | Css ninja 2020-2021 */
+/*
+Theses variables are used to map bulma variables to our css variables
+Some colors are not here because they are overriden with bulma-css-var package.
+*/
+/* ==========================================================================
+2. Global colors
+========================================================================== */
+/* ==========================================================================
+4. Fonts
+========================================================================== */
+/* ==========================================================================
+5. Layout
+========================================================================== */
+.alert {
+  border-radius: 8px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-weight: 1000;
+  font-size: 18px;
+  text-align: center;
+}

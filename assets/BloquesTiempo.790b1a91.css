@@ -1,0 +1,188 @@
+.init[data-v-4fca5487] {
+  background-color: var(--successs);
+  margin-inline: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+}
+.end[data-v-4fca5487] {
+  background-color: var(--danger);
+  margin-inline: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+}
+.inicio[data-v-4fca5487] {
+  border-style: solid;
+  border-color: var(--successs);
+}
+.final[data-v-4fca5487] {
+  border-style: solid;
+  border-color: var(--danger);
+}
+.flotar[data-v-4fca5487] {
+  position: sticky;
+  bottom: 0;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  border-radius: 2rem;
+  width: 15rem;
+}
+.flotar[data-v-4fca5487]:hover,
+.flotar[data-v-4fca5487] :active,
+.flotar[data-v-4fca5487] :focus {
+  outline: 0 !important;
+  background-color: var(--success);
+}
+.flotar:hover div h3[data-v-4fca5487],
+.flotar :active div h3[data-v-4fca5487],
+.flotar :focus div h3[data-v-4fca5487] {
+  color: beige;
+}
+.repeticiones[data-v-4fca5487] {
+  background-color: #eddcc2;
+  border: 1px solid #e3d7c8;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 0.5rem;
+  position: sticky;
+  bottom: 50px;
+  display: flex;
+  gap: 5px;
+}
+.legend-label[data-v-4fca5487] {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #ff8d02;
+}
+
+/* ==========================================================================
+2. Flotar Dark mode
+========================================================================== */
+.is-dark .inicio[data-v-4fca5487] {
+  border-style: solid;
+  border-color: var(--successs) !important;
+}
+.is-dark .final[data-v-4fca5487] {
+  border-style: solid;
+  border-color: var(--danger) !important;
+}
+.is-dark .invoice-section[data-v-4fca5487] {
+  background-color: #212121;
+}
+.is-dark .flotar[data-v-4fca5487] {
+  position: sticky;
+  bottom: 1px;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 2px 4px 1px rgba(255, 255, 255, 0.5);
+  background-color: var(--dark-sidebar-light-6);
+  border-radius: 2rem;
+  width: 15rem;
+}
+.is-dark .flotar[data-v-4fca5487]:hover,
+.is-dark .flotar[data-v-4fca5487] :active,
+.is-dark .flotar[data-v-4fca5487] :focus {
+  outline: 0 !important;
+  background-color: var(--dark);
+}
+.is-dark .flotar:hover div h3[data-v-4fca5487],
+.is-dark .flotar :active div h3[data-v-4fca5487],
+.is-dark .flotar :focus div h3[data-v-4fca5487] {
+  color: beige;
+}.init[data-v-609e9572] {
+  background-color: var(--successs);
+  margin-inline: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+}
+.end[data-v-609e9572] {
+  background-color: var(--danger);
+  margin-inline: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+}
+.inicio[data-v-609e9572] {
+  border-style: solid;
+  border-color: var(--successs);
+}
+.final[data-v-609e9572] {
+  border-style: solid;
+  border-color: var(--danger);
+}
+.flotar[data-v-609e9572] {
+  position: sticky;
+  bottom: 0;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  border-radius: 2rem;
+  width: 15rem;
+}
+.flotar[data-v-609e9572]:hover,
+.flotar[data-v-609e9572] :active,
+.flotar[data-v-609e9572] :focus {
+  outline: 0 !important;
+  background-color: var(--success);
+}
+.flotar:hover div h3[data-v-609e9572],
+.flotar :active div h3[data-v-609e9572],
+.flotar :focus div h3[data-v-609e9572] {
+  color: beige;
+}
+.repeticiones[data-v-609e9572] {
+  background-color: #eddcc2;
+  border: 1px solid #e3d7c8;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 0.5rem;
+  position: sticky;
+  bottom: 50px;
+  display: flex;
+  gap: 5px;
+}
+.legend-label[data-v-609e9572] {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #ff8d02;
+}
+
+/* ==========================================================================
+2. Flotar Dark mode
+========================================================================== */
+.is-dark .inicio[data-v-609e9572] {
+  border-style: solid;
+  border-color: var(--successs) !important;
+}
+.is-dark .final[data-v-609e9572] {
+  border-style: solid;
+  border-color: var(--danger) !important;
+}
+.is-dark .flotar[data-v-609e9572] {
+  position: sticky;
+  bottom: 1px;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 2px 4px 1px rgba(255, 255, 255, 0.5);
+  background-color: var(--dark-sidebar-light-6);
+  border-radius: 2rem;
+  width: 15rem;
+}
+.is-dark .flotar[data-v-609e9572]:hover,
+.is-dark .flotar[data-v-609e9572] :active,
+.is-dark .flotar[data-v-609e9572] :focus {
+  outline: 0 !important;
+  background-color: var(--dark);
+}
+.is-dark .flotar:hover div h3[data-v-609e9572],
+.is-dark .flotar :active div h3[data-v-609e9572],
+.is-dark .flotar :focus div h3[data-v-609e9572] {
+  color: beige;
+}
