@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.has-top-nav .flex-list-wrapper,
+.has-top-nav .list-flex-toolbar {
+  max-width: 880px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Estilos para mover los botones al lado derecho */
+.botones-container {
+  display: flex;
+  /* Utilizar un contenedor flexible para alinear los botones */
+  gap: 3px;
+  /* Espacio de 10px entre los botones */
+}
+.vbutton {
+  display: inline-block;
+  background-color: rgba(15, 213, 216, 0.251);
+  /* Color de fondo del botón */
+  color: rgb(184, 179, 179);
+  padding: 9.3px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.custom-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+  padding: 8px;
+  border: 1px solid #b8acac;
+}
+
+/* Estilos para las filas impares (opcional) */
+.table-row:nth-child(odd) {
+  background-color: #b9b9ad;
+}
+
+/* Estilos para la tabla y sus encabezados */
+.custom-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell {
+  display: table-cell;
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+  /* Alineación central para las celdas de datos */
+}
+
+/* Estilos para los encabezados de columna */
+.table-header {
+  display: table-row;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.table-cell-header {
+  display: table-cell;
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+  /* Alineación central para los encabezados de columna */
+}
+
+/* Estilos para las filas impares (opcional) */
+.table-row:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0);
+  /* Fondo blanco opaco (opacidad 0.9) para filas impares */
+}
+.pagination {
+  margin-top: 20px;
+  /* Ajusta el margen superior según sea necesario */
+  align-self: flex-end;
+  /* Alinea los botones a la derecha */
+}
+.pagination-info {
+  font-size: 16px;
+  /* Tamaño de fuente */
+  color: #333;
+  /* Color de texto */
+  margin-top: 10px;
+  /* Espacio superior */
+}
