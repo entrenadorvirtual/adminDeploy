@@ -1,0 +1,389 @@
+.message {
+  position: relative;
+  border: 1px solid var(--fade-grey-dark-3);
+  box-shadow: var(--light-box-shadow);
+  padding-right: 20px;
+}
+.message.is-primary {
+  border-color: var(--primary-light-24);
+}
+.message.is-primary .delete::before, .message.is-primary .delete::after {
+  background-color: var(--primary);
+}
+.message.is-info {
+  border-color: var(--info-light-24);
+}
+.message.is-info .delete::before, .message.is-info .delete::after {
+  background-color: var(--info);
+}
+.message.is-success {
+  border-color: var(--success-light-24);
+}
+.message.is-success .delete::before, .message.is-success .delete::after {
+  background-color: var(--success);
+}
+.message.is-warning {
+  border-color: var(--warning-light-24);
+}
+.message.is-warning .delete::before, .message.is-warning .delete::after {
+  background-color: var(--warning);
+}
+.message.is-danger {
+  border-color: var(--danger-light-24);
+}
+.message.is-danger .delete::before, .message.is-danger .delete::after {
+  background-color: var(--danger);
+}
+.message .delete {
+  position: absolute;
+  background-color: transparent;
+  top: 6px;
+  right: 6px;
+}
+.message .delete::before {
+  height: 1px;
+  background-color: var(--light-text);
+}
+.message .delete::after {
+  width: 1px;
+  background-color: var(--light-text);
+}
+.message .message-body {
+  border: none;
+  font-family: var(--font);
+}
+.is-dark .message:not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger) {
+  background-color: var(--dark-sidebar);
+  border-color: var(--dark-sidebar-light-3);
+}
+.is-dark .message:not(.is-primary):not(.is-info):not(.is-success):not(.is-warning):not(.is-danger) .message-body {
+  color: var(--light-text);
+}
+.is-dark .message span {
+  color: var(--white);
+}
+.is-dark .message.is-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+.is-dark .message.is-primary .message-body {
+  color: var(--white);
+}
+.is-dark .message.is-primary .delete::before, .is-dark .message.is-primary .delete::after {
+  background-color: var(--white);
+}
+.is-dark .message.is-success {
+  background: var(--success);
+  border-color: var(--success);
+}
+.is-dark .message.is-success .message-body {
+  color: var(--white);
+}
+.is-dark .message.is-success .delete::before, .is-dark .message.is-success .delete::after {
+  background-color: var(--white);
+}
+.is-dark .message.is-info {
+  background: var(--info);
+  border-color: var(--info);
+}
+.is-dark .message.is-info .message-body {
+  color: var(--white);
+}
+.is-dark .message.is-info .delete::before, .is-dark .message.is-info .delete::after {
+  background-color: var(--white);
+}
+.is-dark .message.is-warning {
+  background: var(--warning);
+  border-color: var(--warning);
+}
+.is-dark .message.is-warning .message-body {
+  color: var(--white);
+}
+.is-dark .message.is-warning .delete::before, .is-dark .message.is-warning .delete::after {
+  background-color: var(--white);
+}
+.is-dark .message.is-danger {
+  background: var(--danger);
+  border-color: var(--danger);
+}
+.is-dark .message.is-danger .message-body {
+  color: var(--white);
+}
+.is-dark .message.is-danger .delete::before, .is-dark .message.is-danger .delete::after {
+  background-color: var(--white);
+}.column-acciones[data-v-5655489f] {
+  display: flex;
+  gap: 5px;
+}
+.opciones-serie[data-v-5655489f] {
+  background-color: var(--primary);
+  width: fit-content;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  z-index: 1;
+}
+.serie[data-v-5655489f] {
+  margin-bottom: 30px;
+  padding: 5px;
+  position: relative;
+}
+.serie-editar[data-v-5655489f] {
+  border: 3px dashed var(--warning);
+  padding: 5px;
+}
+.btn-crear-serie[data-v-5655489f] {
+  display: flex;
+  justify-content: start;
+}
+@keyframes parpadeo-5655489f {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+.dos_puntos[data-v-5655489f] {
+  padding-inline: 0.2rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.init[data-v-5655489f] {
+  background-color: var(--successs);
+  margin-inline: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+}
+.end[data-v-5655489f] {
+  background-color: var(--danger);
+  margin-inline: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+}
+.inicio[data-v-5655489f] {
+  border-style: solid;
+  border-color: var(--successs);
+}
+.final[data-v-5655489f] {
+  border-style: solid;
+  border-color: var(--danger);
+}
+.flotar[data-v-5655489f] {
+  display: inline-block;
+  position: sticky;
+  bottom: 0.5rem;
+  margin-top: 0.5rem;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 3px;
+}
+.flotar[data-v-5655489f]:hover,
+.flotar[data-v-5655489f] :active,
+.flotar[data-v-5655489f] :focus {
+  outline: 0 !important;
+  background-color: var(--success);
+}
+.flotar:hover h3[data-v-5655489f],
+.flotar :active h3[data-v-5655489f],
+.flotar :focus h3[data-v-5655489f] {
+  color: beige;
+}
+.repeticiones[data-v-5655489f] {
+  background-color: #eddcc2;
+  border: 1px solid #e3d7c8;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 0.5rem;
+  position: sticky;
+  bottom: 50px;
+  display: flex;
+  gap: 5px;
+}
+.legend-label[data-v-5655489f] {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #ff8d02;
+}
+
+/* ==========================================================================
+2. Flotar Dark mode
+========================================================================== */
+.is-dark .inicio[data-v-5655489f] {
+  border-style: solid;
+  border-color: var(--successs) !important;
+}
+.is-dark .final[data-v-5655489f] {
+  border-style: solid;
+  border-color: var(--danger) !important;
+}
+.is-dark .flotar[data-v-5655489f] {
+  display: inline-block;
+  position: sticky;
+  bottom: 0.5rem;
+  margin-top: 0.5rem;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 2px 4px 1px rgba(255, 255, 255, 0.5);
+  background-color: var(--dark-sidebar-light-6);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.is-dark .flotar[data-v-5655489f]:hover,
+.is-dark .flotar[data-v-5655489f] :active,
+.is-dark .flotar[data-v-5655489f] :focus {
+  outline: 0 !important;
+  background-color: var(--dark);
+}
+.is-dark .flotar:hover h3[data-v-5655489f],
+.is-dark .flotar :active h3[data-v-5655489f],
+.is-dark .flotar :focus h3[data-v-5655489f] {
+  color: beige;
+}.column-acciones[data-v-0b9ef8c5] {
+  display: flex;
+  gap: 5px;
+}
+.opciones-serie[data-v-0b9ef8c5] {
+  background-color: var(--primary);
+  width: fit-content;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  position: absolute;
+  right: 5px;
+  top: -20px;
+  z-index: 1;
+  display: flex;
+}
+.serie[data-v-0b9ef8c5] {
+  margin-bottom: 30px;
+  padding: 5px;
+  position: relative;
+}
+.serie-editar[data-v-0b9ef8c5] {
+  border: 3px dashed var(--warning);
+  padding: 5px;
+}
+.btn-crear-serie[data-v-0b9ef8c5] {
+  display: flex;
+  justify-content: start;
+}
+.is_hidden[data-v-0b9ef8c5] {
+  visibility: hidden;
+}
+.init[data-v-0b9ef8c5] {
+  background-color: var(--successs);
+  margin-inline: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+}
+.end[data-v-0b9ef8c5] {
+  background-color: var(--danger);
+  margin-inline: 0.5rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.5rem;
+}
+.inicio[data-v-0b9ef8c5] {
+  border-style: solid;
+  border-color: var(--successs);
+}
+.final[data-v-0b9ef8c5] {
+  border-style: solid;
+  border-color: var(--danger);
+}
+.flotar[data-v-0b9ef8c5] {
+  display: inline-block;
+  position: sticky;
+  bottom: 0.5rem;
+  margin-top: 0.5rem;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 3px;
+}
+.flotar[data-v-0b9ef8c5]:hover,
+.flotar[data-v-0b9ef8c5] :active,
+.flotar[data-v-0b9ef8c5] :focus {
+  outline: 0 !important;
+  background-color: var(--success);
+}
+.flotar:hover h3[data-v-0b9ef8c5],
+.flotar :active h3[data-v-0b9ef8c5],
+.flotar :focus h3[data-v-0b9ef8c5] {
+  color: beige;
+}
+.repeticiones[data-v-0b9ef8c5] {
+  background-color: #eddcc2;
+  border: 1px solid #e3d7c8;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 0.5rem;
+  position: sticky;
+  bottom: 50px;
+  display: flex;
+  gap: 5px;
+}
+.legend-label[data-v-0b9ef8c5] {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid #ff8d02;
+}
+
+/* ==========================================================================
+2. Flotar Dark mode
+========================================================================== */
+.is-dark .inicio[data-v-0b9ef8c5] {
+  border-style: solid;
+  border-color: var(--successs) !important;
+}
+.is-dark .final[data-v-0b9ef8c5] {
+  border-style: solid;
+  border-color: var(--danger) !important;
+}
+.is-dark .invoice-section[data-v-0b9ef8c5] {
+  background-color: #212121;
+}
+.is-dark .flotar[data-v-0b9ef8c5] {
+  display: inline-block;
+  position: sticky;
+  bottom: 0.5rem;
+  margin-top: 0.5rem;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 2px 4px 1px rgba(255, 255, 255, 0.5);
+  background-color: var(--dark-sidebar-light-6);
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.is-dark .flotar[data-v-0b9ef8c5]:hover,
+.is-dark .flotar[data-v-0b9ef8c5] :active,
+.is-dark .flotar[data-v-0b9ef8c5] :focus {
+  outline: 0 !important;
+  background-color: var(--dark);
+}
+.is-dark .flotar:hover h3[data-v-0b9ef8c5],
+.is-dark .flotar :active h3[data-v-0b9ef8c5],
+.is-dark .flotar :focus h3[data-v-0b9ef8c5] {
+  color: beige;
+}
