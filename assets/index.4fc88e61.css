@@ -1,0 +1,46 @@
+.parametrizacion-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+.input {
+  padding: 5px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.btn-guardar {
+  height: 36px;
+}
+.btn-crearparametro {
+  margin: 10px;
+}
+.col-id {
+  width: 80px;
+  text-align: center;
+}
+.col-estado {
+  width: 400px;
+  text-align: center;
+}
+.col-acciones {
+  width: 120px;
+  text-align: center;
+}
+.btn-accion {
+  width: 100px;
+  height: 36px;
+}
+.input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
