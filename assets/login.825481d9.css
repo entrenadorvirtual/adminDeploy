@@ -1,0 +1,51 @@
+.fondo-login[data-v-80732748] {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/entrenador-virtual.appspot.com/o/login%2Fimg9.png?alt=media&token=de87b2f9-c0d1-4595-bc24-0574f6958e7f") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.input-gray[data-v-80732748] {
+  border: 1px solid var(--primary-grey);
+  border-radius: 5px;
+}
+.container[data-v-80732748] {
+  max-width: 33rem !important;
+}
+.titulo-inicio-sesion[data-v-80732748] {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.is-dark .hero[data-v-80732748] {
+  background-color: var(--dark-sidebar-dark-4);
+}
+.is-dark .input-gray[data-v-80732748] {
+  border: 1px solid transparent;
+}
+.is-dark .hero-body[data-v-80732748] {
+  justify-content: center;
+}
+.is-dark .form-login[data-v-80732748] {
+  background-color: var(--dark-sidebar-dark-4);
+}
+.form-login[data-v-80732748] {
+  border: solid 1px var(--primary);
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: var(--white);
+}
+.link-padding[data-v-80732748] {
+  padding-top: 1rem;
+}
+.subrayar[data-v-80732748] {
+  text-decoration: underline;
+  color: #5293d5 !important;
+}
+.contenedorInputs[data-v-80732748] {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+[data-v-80732748]::placeholder {
+  color: gray;
+}
+.button-inicio-sesion[data-v-80732748] {
+  justify-content: center;
+}

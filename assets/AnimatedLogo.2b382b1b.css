@@ -1,0 +1,81 @@
+.right[data-v-02cfd2fb] {
+  fill: var(--primary-dark-7);
+}
+.bottom[data-v-02cfd2fb] {
+  fill: var(--primary);
+}
+.left[data-v-02cfd2fb] {
+  fill: var(--primary-light-15);
+}
+.is-roll .right[data-v-02cfd2fb],
+svg:hover .right[data-v-02cfd2fb] {
+  animation: is-roll-right-02cfd2fb 8s ease infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+.is-roll .left[data-v-02cfd2fb],
+svg:hover .left[data-v-02cfd2fb] {
+  animation: is-roll-left-02cfd2fb 8s ease infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+.is-roll .bottom[data-v-02cfd2fb],
+svg:hover .bottom[data-v-02cfd2fb] {
+  animation: is-roll-bottom-02cfd2fb 8s ease infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+.is-light .right[data-v-02cfd2fb] {
+  fill: var(--white);
+  animation: none;
+}
+.is-light .bottom[data-v-02cfd2fb] {
+  fill: rgba(255, 255, 255, 0.8);
+  animation: none;
+}
+.is-light .left[data-v-02cfd2fb] {
+  fill: rgba(255, 255, 255, 0.6666666667);
+  animation: none;
+}
+@keyframes is-roll-right-02cfd2fb {
+0% {
+    fill: var(--primary-dark-7);
+}
+33% {
+    fill: var(--primary-light-8);
+}
+66% {
+    fill: var(--primary-light-40);
+}
+100% {
+    fill: var(--primary-dark-7);
+}
+}
+@keyframes is-roll-bottom-02cfd2fb {
+0% {
+    fill: var(--primary);
+}
+33% {
+    fill: var(--primary-light-24);
+}
+66% {
+    fill: var(--primary-light-20);
+}
+100% {
+    fill: var(--primary);
+}
+}
+@keyframes is-roll-left-02cfd2fb {
+0% {
+    fill: var(--primary-light-15);
+}
+33% {
+    fill: var(--primary-light-12);
+}
+66% {
+    fill: var(--primary-light-15);
+}
+100% {
+    fill: var(--primary-light-15);
+}
+}
